@@ -115,21 +115,7 @@ staffMenu.addEventListener('mouseout', ()=>{
 //============================= File upload logic  ==================================
 
 
-const uploadBtn = document.querySelector('.UploadBtn');
-const fileInput = document.querySelector('#fileinput');
-const validationMsg = document.querySelector('#validation');
 
-fileInput.addEventListener('change', () => {
-  validationMsg.textContent = '';
-  const file = fileInput.files[0];
-
-  if (file) {
-    validationMsg.textContent = file.name;    
-    console.log(file.name);
-  } else {
-    validationMsg.textContent = 'no file selected';
-  }
-});
 
 
 
