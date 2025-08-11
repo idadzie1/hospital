@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Multipage website for Medical facility</title>
+</head>
+<body>
+
+    <header id="home">
+        <div class="first-banner-inscription">
+            <p>Comprehensive Health Care</p>
+        </div>
+        <div class="header__image">
+            <img src="../assets/Doctor.gif" alt="" srcset="">
+        </div>
+        <div class="second-banner-inscription">
+            <p>For Beautiful People</p>
+        </div>      
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo-image">
+                <a href=""><img src="../assets/Medical Care.gif" alt="logo Text"></a>
+            </div>
+
+            <div class="hospital-logo">
+                <a href=""><img src="../assets/hospital_logo.jpg" alt=""></a>
+            </div>
+
+
+            <div class="nav-menu">
+                <div class="closeIcon"><span>&#9932;</span></div>
+                <ul>
+                    <a href="../index.html"><li>Home</li></a>
+                    <li id="dpts" class="drop-down">Departments</li>
+                    <li id="svcs" class="drop-down">Services</li>
+                    <li class="staff">Staff</li>
+                    <a href="../specialists.html"><li>Specialists</li></a>
+                    <a href="appoint.html" class="book-appointment"><li>Book an Appointment</li></a>
+                    <a href="#foot"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="hamburger-icon">&#9776;</span>
+            </div>
+
+            <div id="department-units" class="departments">
+                <ul>
+                    <a href="../departments/emergency.html"><li>Emergency</li></a>
+                    <a href="../departments/intensive_care_unit.html"><li>ICU</li></a>
+                    <a href="../departments/medical_surgical_unit.html"><li>Surgical Unit</li></a>
+                    <a href="../departments/obstetrics_gynecology.html"><li>Obstetric Gynecology</li></a>
+                    <a href="../departments/orthopedics.html"><li>Orthopedics</li></a>
+                    <a href="../departments/psychiatry.html"><li>Psychiatry</li></a>
+                </ul>
+            </div>
+
+            <div id="service-units" class="services">
+                <ul>
+                    <a href="../services/emergency_care.html"><li>Emergency Care</li></a>
+                    <a href="../services/inpatient_care.html"><li>Inpatient Care</li></a>
+                    <a href="../services/mental_health_services.html"><li>Mental Health</li></a>
+                    <a href="../services/outpatient_care.html"><li>Outpatient Care</li></a>
+                    <a href="../services/primary_care.html"><li>Primary Care</li></a>
+                </ul>
+            </div>
+
+            <div class="staff-makeup">
+                <ul>
+                    <a href="../staff/administrative_staff.html"><li>Admin Staff</li></a>
+                    <a href="../staff/medical_staff.html"><li>Medical Staff</li></a>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+    
+    <h4 class="emergency_Dpt">Book An appointment with a specialist</h4>
+    <form action=""   method="" enctype="">
+        <input type="text" name="firstName" placeholder="first name" required>
+        <input type="text" name="lastName" placeholder="last name" required>
+        <input type="number" name="phone" placeholder="phone number">
+        <input type="text" name="email" placeholder="email">
+        <div class="appoint-options">
+            <div class="selection">
+                <p>Select as appropriate.(Optional)</p>
+                <select name="" id="">
+                <option value="Emergency_Care">Emergency Care</option>
+                <option value="ICU">ICU</option>
+                <option value="Surgical_Unit">Surgical Unit</option>
+                <option value="Obstetric_Gynacology">Obstetric Gynacology</option>
+                <option value="Orthopedics">Orthopedics</option>
+                <option value="Psychiatry">Psychiatry</option>
+            </select>
+            </div>
+            
+            <div class="appoint">
+                <p>Set your appointment date</p>
+                <input type="date" name="date">
+            </div>
+        </div>           
+        <input type="file" name="fileUpLoad" id="fileinput">
+            
+        </div>    
+        <label for="fileinput" class="UploadBtn">Upload your document</label>
+        <span id="validation"></span>
+        <textarea name="" id="" placeholder="message(optional)"></textarea>
+        <div class="btns">
+            <button id="submitBtn" type="submit">Enter</button>
+            <button type="reset">Clear</button>
+        </div> 
+    </form>    
+
+    <footer id="foot">
+        <div class="footer-items">
+            <div class="footer-menu-items">
+                <ul>
+                    <a href="../index.html"><li>Home</li></a>                    
+                    <a href="../staff/medical_staff.html"><li>Staff</li></a>
+                    <a href="../specialists.html"><li>Specialists</li></a>
+                    <a href="#foot"><li>Contacts</li></a>
+                </ul>              
+            </div>
+
+            <div class="appointments">
+                <a href="appoint.html">Book an appointment</a>
+            </div>
+
+            <div class="location-contacts">
+                <address>
+                    GH Hospital,<br>
+                    Temple Street <br>
+                    Accra, Ghana <br>
+                    Tel: +233209453410
+                </address>
+            </div>
+
+            <div class="socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>         
+
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; Isu Mustapha Dadzie
+        </div>        
+    </footer>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
