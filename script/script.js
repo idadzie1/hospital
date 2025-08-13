@@ -160,6 +160,14 @@ nonDropDnMenus.forEach(item=>{
 })
 
 
+// fecthing a component in JS.
+// ================================== 
+// fetch("/components/navbar.html")
+//   .then(res => res.text())
+//   .then(data => document.getElementById("navbar").innerHTML = data);
+
+
+
 
 
 
