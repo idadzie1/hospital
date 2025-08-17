@@ -206,10 +206,14 @@ nav{
 }
 
 
+#dpts, #svcs{
+    position: relative;
+}
+
 .departments{
     position: absolute;
-    top: 4rem;
-    left: 21rem;
+    top: 3rem;
+    left: 0;
     width: 10rem;    
     visibility: hidden;
     opacity: 0;
@@ -229,7 +233,7 @@ nav{
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* gap: 1rem; */
+    gap: 0;
 }
 
 .departments ul a{
@@ -239,7 +243,7 @@ nav{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #555879;
     background-color: #F8F8F8;
 }
 
@@ -260,16 +264,25 @@ nav{
 }
 
 
+
+
 .services{
     position: absolute;
-    top: 4rem;
-    left: 32rem;
+    top: 3rem;
+    left: 0;
     width: 10rem;    
-    
     visibility: hidden;
     opacity: 0;
     transition: all 300ms ease-in-out;         
 }
+
+
+.services ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
 
 
 
@@ -294,7 +307,7 @@ nav{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #555879;
     background-color: #F8F8F8;
 }
 
@@ -316,14 +329,15 @@ nav{
 }
 
 .staff{
+    position: relative;
     color: #fff;
     cursor: pointer;
 }
 
 .staff-makeup{
     position: absolute;
-    top: 4rem;
-    left: 42rem;
+    top: 3rem;
+    left: 0;
     width: 10rem;          
     /* background-color: red; */
     visibility: hidden;
@@ -341,7 +355,8 @@ nav{
     width: 100%;    
     background-color: #F8F8F8;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    gap: 0;   
     align-items: center;    
 }
 
