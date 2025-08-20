@@ -339,7 +339,7 @@ nav{
     top: 3rem;
     left: 0;
     width: 10rem;          
-    /* background-color: red; */
+    /* background-color: #fff; */
     visibility: hidden;
     opacity: 0;
     transition: all 300ms ease-in; 
@@ -353,7 +353,6 @@ nav{
 
 .staff-makeup ul{
     width: 100%;    
-    background-color: #F8F8F8;
     display: flex;
     flex-direction: column;
     gap: 0;   
@@ -368,7 +367,8 @@ nav{
     border-bottom: 1px solid;
     display: flex;   
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    background-color: #F8F8F8;   
 }
 
 
@@ -673,7 +673,8 @@ address{
 
 
     .staff-makeup{ 
-        left: 2rem; 
+        left: 2rem;
+
     }
 
 
@@ -895,8 +896,8 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
+    /* .staff-makeup ul{ 
+        background-color: #F8F8F8; 
     } */
 
 
@@ -1111,10 +1112,6 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
-    } */
-
 
     .logo-image{
         margin-left:-7rem;
@@ -1151,13 +1148,7 @@ address{
     background-color:#555879;  
 }
 
-/* .departments{
-    left: 2rem;
-}
 
-.services{
-    left: 2rem;
-} */
 
 
 .mission-statement{   
@@ -1324,10 +1315,6 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
-    } */
-
 
     .logo-image{
         margin-left:-10.5rem;
@@ -1363,14 +1350,6 @@ address{
     gap: 1rem;
     background-color:#555879;  
 }
-
-/* .departments{
-    left: 2rem;
-}
-
-.services{
-    left: 2rem;
-} */
 
 
 .mission-statement{   
@@ -1549,9 +1528,7 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
-    } */
+
 
 
     .logo-image{
@@ -1587,15 +1564,9 @@ address{
     
     gap: 1rem;
     background-color:#555879;  
+
 }
 
-/* .departments{
-    left: 2rem;
-}
-
-.services{
-    left: 2rem;
-} */
 
 
 .mission-statement{   
@@ -1761,9 +1732,7 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
-    } */
+
 
 
     .logo-image{
@@ -1801,13 +1770,7 @@ address{
     background-color:#555879;  
 }
 
-/* .departments{
-    left: 2rem;
-}
 
-.services{
-    left: 2rem;
-} */
 
 
 .mission-statement{   
@@ -1975,9 +1938,7 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
-    } */
+
 
 
     .logo-image{
@@ -2015,13 +1976,7 @@ address{
     background-color:#555879;  
 }
 
-/* .departments{
-    left: 2rem;
-}
 
-.services{
-    left: 2rem;
-} */
 
 
 .mission-statement{   
@@ -2194,9 +2149,7 @@ address{
     }
 
 
-    /* .staff-makeup{ 
-        left: 2rem; 
-    } */
+
 
 
     .logo-image{
@@ -2234,13 +2187,7 @@ address{
     background-color:#555879;  
 }
 
-/* .departments{
-    left: 2rem;
-}
 
-.services{
-    left: 2rem;
-} */
 
 
 .mission-statement{   
